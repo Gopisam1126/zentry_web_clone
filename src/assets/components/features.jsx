@@ -1,3 +1,5 @@
+import BentoCard from "./bentoCard";
+
 function Features() {
   return (
     <section className="bg-black pb-12">
@@ -11,6 +13,14 @@ function Features() {
             gamification and hyper-personalization lead humans & AI into a
             global play economy.
           </p>
+        </div>
+        <div className="border-hsla relative mb-7 h-96 max-w-[60rem] overflow-hidden rounded-md md:h-[65vh] left-64">
+            <BentoCard
+                src="videos\feature-1.mp4"
+                title= {<>rad<b>t</b></>}
+                desc="The game of games transforming your in-game actions across Web2 & Web3 titles into a rewarding adventure."
+                isComingSoon
+            />
         </div>
       </div>
     </section>
