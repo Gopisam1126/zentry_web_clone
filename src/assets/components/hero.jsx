@@ -13,7 +13,7 @@ function Hero() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 3;
+  const totalVideos = 4;
   const nextVideoRef = useRef(null);
 
   const nextVidIndex = (currentIndex % totalVideos) + 1;
@@ -29,9 +29,9 @@ function Hero() {
 
   useEffect(() => {
     if (loadedVideos === totalVideos - 1) {
-        setIsLoading(false)
+      setIsLoading(false);
     }
-  }, [loadedVideos])
+  }, [loadedVideos]);
 
   useGSAP(
     () => {
@@ -133,7 +133,7 @@ function Hero() {
           />
         </div>
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          G<b>a</b>ming
+          Ide<b>n</b>tity
         </h1>
         <div className="absolute top-0 left-0 z-40 size-full">
           <div className="mt-24 pz-5 sm:px-10">
@@ -154,7 +154,7 @@ function Hero() {
         </div>
       </div>
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        G<b>a</b>ming
+        Ide<b>n</b>tity
       </h1>
     </div>
   );
