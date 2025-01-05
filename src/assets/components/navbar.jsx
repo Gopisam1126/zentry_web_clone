@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef, useState } from "react";
 import Button from "./button";
 import NearMeIcon from "@mui/icons-material/NearMe";

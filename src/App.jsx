@@ -1,4 +1,5 @@
 import About from "./assets/components/about";
+import Features from "./assets/components/features";
 import Hero from "./assets/components/hero";
 import Navbar from "./assets/components/navbar";
 import "./assets/compStyles/common.css";
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Features/>
     </main>
   );
 }
