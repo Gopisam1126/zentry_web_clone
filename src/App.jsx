@@ -2,6 +2,7 @@ import About from "./assets/components/about";
 import Features from "./assets/components/features";
 import Hero from "./assets/components/hero";
 import Navbar from "./assets/components/navbar";
+import Story from "./assets/components/story";
 import "./assets/compStyles/common.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <About/>
       <Features/>
+      <Story/>
     </main>
   );
 }
