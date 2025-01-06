@@ -1,5 +1,7 @@
 import About from "./assets/components/about";
+import Contact from "./assets/components/contact";
 import Features from "./assets/components/features";
+import Footer from "./assets/components/footer";
 import Hero from "./assets/components/hero";
 import Navbar from "./assets/components/navbar";
 import Story from "./assets/components/story";
@@ -13,6 +15,8 @@ function App() {
       <About/>
       <Features/>
       <Story/>
+      <Contact/>
+      <Footer/>
     </main>
   );
 }
